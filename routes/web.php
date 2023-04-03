@@ -16,7 +16,7 @@ use App\Http\Controllers\WordController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'welcome';
 });
 
 Route::resource('/word', WordController::class);
